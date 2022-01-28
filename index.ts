@@ -208,6 +208,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
 
     if (interaction.guild) {
         const guildCmds = privateCommandMap.get(interaction.guild.id)
+        if (!guildCmds) return
 
         for (const cmd of guildCmds) {
             if (interaction.commandName == cmd.slashCommand.name) {
