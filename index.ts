@@ -147,7 +147,7 @@ for (const guild of privateCommandMap) {
     for (const cmd of guild[1]) {
         const cast = cmd as any
 
-        if (!cast.preprocessor.saveCooldownInDb) {
+        if (cast.preprocessor && !cast.preprocessor.saveCooldownInDb) {
             cooldownMap.set(`${guild[0]}_${cast.slashCommand.name}`, new Map<string, number>())
         } else {
             initCooldownMap.push(`${guild[0]}_${cast.slashCommand.name}`)
