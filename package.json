@@ -1,0 +1,33 @@
+{
+  "name": "bot-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldEditAxe/bot-framework.git"
+  },
+  "author": "q13x, WorldEditAxe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WorldEditAxe/bot-framework/issues"
+  },
+  "homepage": "https://github.com/WorldEditAxe/bot-framework#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.14.0",
+    "@discordjs/rest": "^0.5.0",
+    "@types/better-sqlite3": "^7.5.0",
+    "@types/node": "^17.0.40",
+    "better-sqlite3": "^7.5.3",
+    "bufferutil": "^4.0.6",
+    "chalk": "^5.0.1",
+    "discord-api-types": "^0.33.3",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.6.0",
+    "utf-8-validate": "^5.0.9"
+  }
+}
