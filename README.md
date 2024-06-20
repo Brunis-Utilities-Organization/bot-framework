@@ -1,4 +1,7 @@
 # Discord.js Bot Framework
+## DISCONTINUED
+This code was originally written to accomodate for Dank Merchants' Polly bot, but since development ceased a long time ago I have decided to release the framework's code along with the code of the original Polly bot.
+
 A discord.js bot skeleton/framework, made with slash commands in mind. Have fun making your own Discord bot!  
 *Note: Only the base framework used to make the bot is included. If you'd like to add your own commands, refer to [this guide](https://discordjs.guide/interactions/registering-slash-commands.html).*
 ## Installation/Deployment
